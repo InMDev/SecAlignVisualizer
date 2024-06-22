@@ -11,7 +11,7 @@ SecAlignVisualizer is a tool for visualizing multiple sequence alignments with s
 
 ### What you need to run
 - `.PDB` files where each one contain the helix and sheet secondary structure information.
-- `.fas` file that contain the multi-sequence alignment file
+- `.fas` or `.aln` file that contain the multi-sequence alignment file
 
 ## Installation
 
@@ -24,7 +24,7 @@ pip install biopython
 ## Usage
 1. Prepare `.PDB` Files: Ensure your PDB files are available in the desired directory.
 
-2. Create Alignment: Use your favorite alignment tool (e.g., Clustal Omega, MUSCLE) to generate a multiple sequence alignment file in FASTA format (`.fas`).
+2. Create Alignment: Use your favorite alignment tool (e.g., Clustal Omega, MUSCLE) to generate a multiple sequence alignment file in FASTA format (`.fas`) or `.aln` format.
 
 3. Open the `Main.ipynb`, Update the file path below in the code:
 - `pdb_files_dir = "Replace_with_FOLDER_path"`
