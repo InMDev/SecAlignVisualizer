@@ -26,7 +26,11 @@ pip install biopython
 
 2. Create Alignment: Use your favorite alignment tool (e.g., Clustal Omega, MUSCLE) to generate a multiple sequence alignment file in FASTA format (`.fas`).
 
-3. Run the Script: Use the provided script to parse the PDB files, map the secondary structures, and generate the HTML visualization.
+3. Open the `Main.ipynb`, Update the file path below in the code:
+- `pdb_files_dir = "Replace_with_FOLDER_path"`
+- `alignment_file = "Replace_with_path_to_alignment_file"`
+
+4. Run the final block and open `Output.html`
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
